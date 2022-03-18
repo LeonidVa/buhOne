@@ -1,0 +1,26 @@
+.left{
+    display: flex;
+    max-width: 260px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+
+    &__logo{
+        width:40px;
+        height:40px;
+        display:flex;        
+    }
+    &__name{
+        max-width:190px;
+        width: 100%;
+        span{
+            font-family: Merriweather;
+            font-style: normal;
+            font-weight: 900;
+            font-size: 36px;
+            line-height: 50px;
+            color:var(--accent);
+        }
+    }
+}

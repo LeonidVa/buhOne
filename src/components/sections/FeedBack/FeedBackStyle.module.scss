@@ -1,0 +1,52 @@
+.feedback{
+    &__container{
+        background-color: var(--bgcolor);
+        padding:45px 95px; 
+    }
+    &__description{
+        font-family: "Lato", sans-serif;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 25px;
+        color: #000000;
+    }
+}
+
+.human{
+    display: flex;
+    margin-top: 58px;
+    align-items: center;
+    &__photo{
+        width: 80px;
+        height: 80px;
+        /* display: block; */
+        background-color: blueviolet;
+        border-radius: 50%;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+    }
+    &__img{
+        height: 100%;
+    }
+    &__info{
+        margin-left: 35px;
+    }
+    &__fio{
+        font-family: "Lato", sans-serif;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 18px;
+        line-height: 25px;
+        color: #000000;
+    }
+    &__position{
+        font-family: "Lato", sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 19px;
+        color: #4F4F4F;
+    
+    }
+}

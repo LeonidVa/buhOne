@@ -1,0 +1,33 @@
+.Form{
+    &__block{
+        & input{
+            width: 100%;
+            outline: none;
+            border: none;
+            border-bottom: 1px solid rgba(255,255,255, 0.6);
+            background: none;
+            color: white;
+        }
+    }
+    &__fio{
+        display: flex;
+        justify-content: space-between;
+        & label{
+            max-width: 255px;
+            width: 100%;
+        }
+        & input{
+            padding: 15px 0;
+        }
+    }
+    &__textarea{
+        & input{
+            height: 120px;
+        display: flex;
+        }
+    }
+    &__button{
+        padding-top: 50px;
+        text-align: end;
+    }
+}

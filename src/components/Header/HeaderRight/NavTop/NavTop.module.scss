@@ -1,0 +1,22 @@
+.navtop{
+    &__list{
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+    }
+
+    &__link{
+        display:flex;
+        align-items: center;
+        & svg{
+            margin-right:15px;
+        }
+        & span{
+            font-size:13px;
+        }
+    }
+    &__svg{
+        padding-right:15px;
+    }
+}

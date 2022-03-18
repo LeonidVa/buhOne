@@ -1,0 +1,13 @@
+.prev{
+    z-index: 6868;
+    max-width: 1116px;
+    margin: 0 auto;
+    position: relative;
+    &__btn{
+        position: absolute;
+        bottom: -41.85rem;
+        /* left: 110px; */
+        /* top: 0; */
+        right: 60px;
+    }
+}
